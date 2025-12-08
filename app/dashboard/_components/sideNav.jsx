@@ -33,11 +33,12 @@ const SideNav = () => {
                     </h2>
                 ))}
             </div>
-            <div className='fixed bottom-20 p-6 w-64 '>
+            <div className='fixed bottom-10 p-6 w-64 '>
                 <Button className='w-full'> + Create Form</Button>
-                <div className='my-5'>
+                <div className='my-10'>
                     <Progress value={33} />
-                                    
+                    <h2 className='text-sm mt-2 text-[#3A5A40]'><strong>2 </strong>Out of <strong>3 </strong>Forms Created</h2>
+                    <h2 className='text-sm mt-3 text-[#3A5A40]'>Upgrade to Pro to create unlimited numbers of forms</h2>      
                 </div>
             </div>
         </div>
